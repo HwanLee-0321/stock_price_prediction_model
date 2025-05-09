@@ -40,7 +40,11 @@
 
 * 날짜별 예측값 vs 실제값 그래프 시각화
 * 20개 종목에 대해 예측 결과 저장
-* 저장 경로: `target/XGB/<YYYY-MM-DD>_prediction.csv`
+* 저장 경로: `XGBoost/target/<YYYY-MM-DD>_prediction.csv`
+
+#### ✅ 스크립트관리
+
+* 저장 경로: `XGBoost/script/~~.py` <-- 본인이 원하는 것들 맘대로 짜주세요.
 
 ---
 
@@ -70,16 +74,11 @@
 #### ✅ 결과 출력 및 저장
 
 * 예측 결과 시각화 그래프 생성
-* 예측값은 CSV 형식으로 저장: `target/LSTM/<YYYY-MM-DD>_prediction.csv`
+* 예측값은 CSV 형식으로 저장: `LSTM/target/<YYYY-MM-DD>_prediction.csv`
 
----
+#### ✅ 스크립트관리
 
-### 4. 모델 성능 비교 및 리포트 작성
-
-* XGBoost와 LSTM 모델 간의 성능 비교 (MAE, RMSE, 예측 정확도 등)
-* 종목별로 어떤 모델이 더 효과적인지 평가
-* 시각자료를 포함한 요약 리포트 작성
-* 보고서 저장 예: `target/model_comparison_summary.pdf`
+* 저장 경로: `XGBoost/script/~~.py` <-- 본인이 원하는 것들 맘대로 짜주세요.
 
 ---
 
